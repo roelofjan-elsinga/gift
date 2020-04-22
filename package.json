@@ -1,15 +1,15 @@
 {
-  "name": "gift",
-  "version": "0.10.2",
+  "name": "gift-github",
+  "version": "0.10.3",
   "description": "a Git wrapper library",
   "keywords": [
     "git",
     "cli",
     "wrapper"
   ],
-  "homepage": "https://github.com/notatestuser/gift",
+  "homepage": "https://github.com/roelofjan-elsinga/gift",
   "bugs": {
-    "url": "https://github.com/notatestuser/gift/issues"
+    "url": "https://github.com/roelofjan-elsinga/gift/issues"
   },
   "author": {
     "name": "sentientwaffle",
@@ -19,11 +19,11 @@
   "main": "./lib/index",
   "scripts": {
     "test": "mocha --compilers coffee:\"./node_modules/coffee-script/lib/coffee-script/register\"",
-    "prepublish": "coffee -o lib -c src"
+    "prepare": "coffee -o lib -c src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/notatestuser/gift.git"
+    "url": "https://github.com/roelofjan-elsinga/gift.git"
   },
   "dependencies": {
     "flex-exec": "^1.0.0",

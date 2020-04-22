@@ -119,6 +119,10 @@ module.exports = class Commit
       if /^encoding/.test lines[0]
         encoding = _.last lines.shift().split(" ")
 
+      # Commits made in GitHub UI add an additional line with a single space
+      if lines[0] == " "
+        lines.shift()
+
       lines.shift()  if lines.length
 
       message_lines = []

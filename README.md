@@ -1,4 +1,4 @@
-# Gift [![](https://img.shields.io/npm/v/gift.svg) ![](https://img.shields.io/npm/dt/gift.svg)](https://www.npmjs.com/package/gift)
+# Gift [![](https://img.shields.io/npm/v/gift-github.svg) ![](https://img.shields.io/npm/dt/gift-github.svg)](https://www.npmjs.com/package/gift-github)
 
 A simple Node.js wrapper for the Git CLI. The API is based on
 [Grit](https://github.com/mojombo/grit).
@@ -27,7 +27,7 @@ Tested in all stable versions of node.
 
 This fork is now in the `npm` package repository. Install it like you would any other package:
 
-    $ npm install gift
+    $ npm install gift-github
 
 # API
 
